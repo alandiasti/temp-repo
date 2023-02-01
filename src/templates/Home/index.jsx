@@ -90,7 +90,7 @@ class Home extends Component {
           <footer>
             <div className='facebook'>
               <h3>CONTATO</h3>
-              <a href='https://www.facebook.com/alandias.silva08' target='_blank'>facebook </a>
+              <a href='https://www.facebook.com/alandias.silva08' target='blank'>facebook </a>
             </div>
             Desenvolvido por <strong className='strong'>Alan Dias</strong>
           </footer>

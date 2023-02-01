@@ -86,6 +86,11 @@ class Home extends Component {
         )}
           
         </div>
+        <div>
+          <footer>
+            Desenvolvido por <strong>Alan Dias</strong>
+          </footer>
+        </div>
 
       </section>
     )

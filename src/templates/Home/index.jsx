@@ -16,7 +16,7 @@ class Home extends Component {
     posts: [],
     allPosts: [],
     page: 0,
-    postsPerPage: 5,
+    postsPerPage: 15,
     searchValue: ''
   };
   async componentDidMount() {
@@ -84,11 +84,15 @@ class Home extends Component {
             disabled={noMorePosts}
           />
         )}
-          
+        
         </div>
-        <div>
+        <div className='footer'>
           <footer>
-            Desenvolvido por <strong>Alan Dias</strong>
+            <div className='facebook'>
+              <h3>CONTATO</h3>
+              <a href='https://www.facebook.com/alandias.silva08' target='_blank'>facebook </a>
+            </div>
+            Desenvolvido por <strong className='strong'>Alan Dias</strong>
           </footer>
         </div>
 

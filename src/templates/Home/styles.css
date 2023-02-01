@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  background-color: #eee;
+  background-color: rgb(26, 226, 190);
   padding: 30px;
 }
 
@@ -8,6 +8,7 @@
   min-height: 60px;
   display: flex;
   align-items: flex-end;
+  
 }
   .search-container {
     margin-bottom: 30px;
@@ -15,3 +16,26 @@
   .search-container h1 {
     margin-bottom: 30px;
   }
+  .footer{
+    padding: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+
+    
+  }
+  .strong{
+    color: blueviolet;
+  }
+  .facebook {
+  text-align: left;
+  font-size: 1.4rem;
+  }
+  .facebook a {
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+    
+  }
+ 
+  
+    

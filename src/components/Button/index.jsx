@@ -8,7 +8,7 @@ export class Button extends Component {
            
             className="button"
             onClick={quandoClica}
-            disabled={disabled}>
+            disabled={disabled}> 
                {text}
             </button>
         )
